@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
     <title>Lozano Personal Website</title>
 </head>
 <body>
@@ -11,16 +14,91 @@
         <h1 class="text-center fw-bold text-info">Welcome to my Personal Website!</h1>
         <p class="text-center fw-light fst-italic bg-light m-3 p-4 shadow-lg rounded-pill border-5 border-start border-end border-primary">
                                         Hello! My name is Humphrey Myles C. Lozano.
-                                        This is my personal website! Feel free to look around. 
-                                        You might find some secrets ;D!</p>
+                                        This is my personal website! Feel free to look around.
+        </p>
     </div>
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Portfolio</a>
+    <ul class="nav nav-underline justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#aboutme">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#skillset">Skillset and Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#pixelart">Pixel Art Corner</a>
+        </li>
+    </ul>
+    <div class="container">
+        <h1 class="text-center mt-3 ms-3" id="aboutme">About Me</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/Red-Jacket.png" class="img-fluid" alt="My Image PIcture">
+            </div>
+            <div class="col-md-8">
+                <p class="text-justify">
+                    I am currently studying for a course of Bachelor of Science in Information Technology at Jose Maria College Foundation Incorporated. 
+                    I pride myself on my ability to absorb information like a sponge, allowing me to grasp concepts very readily, 
+                    making me the best blank slate you can ever have.<br><br> 
+                    I am critical of the information given to me, which is why I need full details/information before I take action or begin work on an objective.
+                    I love video games with a lot of passion, and I love making pixel art as a hobby inspired by video games.
+                </p>
+            </div>
         </div>
-    </nav>
-    <h1 class="text-center mt-3 ms-3">Introductions</h1>
-    
+    </div>
+
+    <h2 class="text-center mt-3 ms-3" id="pixelart">Pixel Art Corner</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="bg-light overflow-hidden">
+                    <img src="images/A-Journey.png" class="img-fluid w-100 h-100 object-cover" alt="Image-1">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="bg-light overflow-hidden">
+                    <img src="images/Bright-Eye.png" class="img-fluid w-100 h-100 object-cover" alt="Image-2">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="bg-light overflow-hidden">
+                    <img src="images/gifs/SLIME_RED_CAP.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-1">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="bg-light overflow-hidden">
+                    <img src="images/Sun-Blade.png" class="img-fluid w-100 h-100 object-cover" alt="Image-3">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="bg-light overflow-hidden">
+                    <img src="images/Wine-Spill.png" class="img-fluid w-100 h-100 object-cover" alt="Image-4">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="bg-light overflow-hidden">
+                    <img src="images/gifs/Red_Sorcerer.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-2">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="bg-light overflow-hidden">
+                    <img src="images/gifs/PIPE_RED_SLIME.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
 </body>
 </html>
+
