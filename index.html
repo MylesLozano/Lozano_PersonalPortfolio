@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .nav-link:hover {
+            opacity: 0.5;
+        }
+        p {
+            text-align: justify;
+            color: aliceblue;
+        }
+        h1 {
+            color: aliceblue;
+        }
+    </style>
+        
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
     crossorigin="anonymous">
+
     <title>Lozano Personal Website</title>
 </head>
 <body>
@@ -17,6 +31,7 @@
                                         This is my personal website! Feel free to look around.
         </p>
     </div>
+
     <ul class="nav nav-underline justify-content-center">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#aboutme">About Me</a>
@@ -31,58 +46,91 @@
           <a class="nav-link active" aria-current="page" href="#pixelart">Pixel Art Corner</a>
         </li>
     </ul>
-    <div class="container">
-        <h1 class="text-center mt-3 ms-3" id="aboutme">About Me</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="images/Red-Jacket.png" class="img-fluid" alt="My Image PIcture">
-            </div>
-            <div class="col-md-8">
-                <p class="text-justify">
-                    I am currently studying for a course of Bachelor of Science in Information Technology at Jose Maria College Foundation Incorporated. 
-                    I pride myself on my ability to absorb information like a sponge, allowing me to grasp concepts very readily, 
-                    making me the best blank slate you can ever have.<br><br> 
-                    I am critical of the information given to me, which is why I need full details/information before I take action or begin work on an objective.
-                    I love video games with a lot of passion, and I love making pixel art as a hobby inspired by video games.
-                </p>
+
+    <section class="bg-danger">
+        <div class="container">
+            <h1 class="text-center fs-3 mt-3 ms-3" id="aboutme">About Me</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/Red-Jacket.png" class="img-fluid mb-4" alt="My Image Picture">
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am currently studying for a course of Bachelor of Science in Information Technology at Jose Maria College Foundation Incorporated. 
+                        I pride myself on my ability to absorb information like a sponge, allowing me to grasp concepts very readily, 
+                        making me the best blank slate you can ever have.<br><br> 
+                        I am critical of the information given to me, which is why I need full details/information before I take action or begin work on an objective.
+                        I love video games with a lot of passion, and I love making pixel art as a hobby inspired by video games.
+                    </p>
+                    <div class="row">
+                        <div class="col-sm">
+                            <a href="https://github.com/MylesLozano">
+                                <img src="images/GitHub_Invertocat_Logo.png"  class="img-fluid w-100 object-cover" alt="Github Link" target=”_blank”>
+                            </a>
+                        </div>
+                        <div class="col-sm">
+                            <a href="https://www.facebook.com/TGL.Codex/">
+                                <img src="images/Facebook_Icon_Black.png" class="img-fluid w-100 object-cover" alt="Facebook Link" target=”_blank”>
+                            </a>
+                        </div>
+                        <div class="col-sm">
+                            <a href="https://www.linkedin.com/in/humphrey-myles-lozano-69980b280/">
+                                <img src="images/linkedin_black_logo_icon.png" class="img-fluid w-100 object-cover" alt="LinkedIn Link" target=”_blank”>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p class="fs-4 bg-light" style="color: black; text-align: center;">
+                        ~Humphrey Myles C. Lozano~<br>
+    
+                        “If I can fail, I can learn.”
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>    
+
+    <section>
+        <div class="container">
+            <h1 class="text-center fs-3 mt-3 ms-3" id="education">Education</h1>
+            <div class="mt-3 container text-center">
+                <div class="row">
+                  <div class="fs-4 col">
+                    Senior High School
+                  </div>
+                  <div class="fs-4 col">
+                    College
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
 
     <h2 class="text-center mt-3 ms-3" id="pixelart">Pixel Art Corner</h2>
     <div class="container">
-        <div class="row">
+        <!-- First Row -->
+        <div class="row no-gutters">
             <div class="col-sm">
-                <div class="bg-light overflow-hidden">
-                    <img src="images/A-Journey.png" class="img-fluid w-100 h-100 object-cover" alt="Image-1">
-                </div>
+                <img src="images/gifs/Red_Sorcerer.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-1">
             </div>
             <div class="col-sm">
-                <div class="bg-light overflow-hidden">
-                    <img src="images/Bright-Eye.png" class="img-fluid w-100 h-100 object-cover" alt="Image-2">
-                </div>
+                <img src="images/gifs/SLIME_RED_CAP.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-2">
             </div>
             <div class="col-sm">
-                <div class="bg-light overflow-hidden">
-                    <img src="images/gifs/SLIME_RED_CAP.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-1">
-                </div>
+                <img src="images/Sun-Blade.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-1">
             </div>
         </div>
-        <div class="row">
+        <!-- Second Row -->
+        <div class="row no-gutters">
             <div class="col-sm">
-                <div class="bg-light overflow-hidden">
-                    <img src="images/Sun-Blade.png" class="img-fluid w-100 h-100 object-cover" alt="Image-3">
-                </div>
+                <img src="images/Bright-Eye.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-2">
             </div>
             <div class="col-sm">
-                <div class="bg-light overflow-hidden">
-                    <img src="images/Wine-Spill.png" class="img-fluid w-100 h-100 object-cover" alt="Image-4">
-                </div>
+                <img src="images/A-Journey.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-3">
             </div>
             <div class="col-sm">
-                <div class="bg-light overflow-hidden">
-                    <img src="images/gifs/Red_Sorcerer.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-2">
-                </div>
+                <img src="images/Wine-Spill.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-4">
             </div>
         </div>
         <div class="row">
@@ -94,8 +142,6 @@
         </div>
     </div>
 
-
-    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
     crossorigin="anonymous"></script>
