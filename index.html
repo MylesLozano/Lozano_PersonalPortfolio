@@ -26,7 +26,7 @@
 <body>
     <div class="container-lg m3 pt-2">
         <h1 class="text-center fw-bold text-info">Welcome to my Personal Website!</h1>
-        <p class="text-center fw-light fst-italic bg-light m-3 p-4 shadow-lg rounded-pill border-5 border-start border-end border-primary">
+        <p style="color: black;" class="text-center fw-light fst-italic bg-light m-3 p-4 shadow-lg rounded-pill border-5 border-start border-end border-primary">
                                         Hello! My name is Humphrey Myles C. Lozano.
                                         This is my personal website! Feel free to look around.
         </p>
@@ -49,11 +49,16 @@
 
     <section class="bg-danger">
         <div class="container">
-            <h1 class="text-center fs-3 mt-3 ms-3" id="aboutme">About Me</h1>
+            <h1 class="text-center fs-3 mt-3" id="aboutme"><u>About Me</u></h1>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="images/Red-Jacket.png" class="img-fluid mb-4" alt="My Image Picture">
+                    <img src="images/Red-Jacket.png" class="img-fluid" alt="My Image Picture">
+                    <p class="fs-4 bg-light" style="color: black; text-align: center;">
+                        ~Humphrey Myles C. Lozano~<br>
+                        “If I can fail, I can learn.”
+                    </p>
                 </div>
+                
                 <div class="col-md-8">
                     <p>
                         I am currently studying for a course of Bachelor of Science in Information Technology at Jose Maria College Foundation Incorporated. 
@@ -64,83 +69,182 @@
                     </p>
                     <div class="row">
                         <div class="col-sm">
-                            <a href="https://github.com/MylesLozano">
-                                <img src="images/GitHub_Invertocat_Logo.png"  class="img-fluid w-100 object-cover" alt="Github Link" target=”_blank”>
+                            <a href="https://github.com/MylesLozano" target=”_blank”>
+                                <img src="images/GitHub_Invertocat_Logo.png"  class="img-fluid w-100 object-cover" alt="Github Link">
                             </a>
                         </div>
                         <div class="col-sm">
-                            <a href="https://www.facebook.com/TGL.Codex/">
-                                <img src="images/Facebook_Icon_Black.png" class="img-fluid w-100 object-cover" alt="Facebook Link" target=”_blank”>
+                            <a href="https://www.facebook.com/TGL.Codex/" target=”_blank”>
+                                <img src="images/Facebook_Icon_Black.png" class="img-fluid w-100 object-cover" alt="Facebook Link">
                             </a>
                         </div>
                         <div class="col-sm">
-                            <a href="https://www.linkedin.com/in/humphrey-myles-lozano-69980b280/">
-                                <img src="images/linkedin_black_logo_icon.png" class="img-fluid w-100 object-cover" alt="LinkedIn Link" target=”_blank”>
+                            <a href="https://www.linkedin.com/in/humphrey-myles-lozano-69980b280/" target=”_blank”>
+                                <img src="images/linkedin_black_logo_icon.png" class="img-fluid w-100 object-cover" alt="LinkedIn Link">
                             </a>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <p class="fs-4 bg-light" style="color: black; text-align: center;">
-                        ~Humphrey Myles C. Lozano~<br>
-    
-                        “If I can fail, I can learn.”
-                    </p>
                 </div>
             </div>
         </div>
     </section>    
 
     <section>
-        <div class="container">
-            <h1 class="text-center fs-3 mt-3 ms-3" id="education">Education</h1>
+        <h1 class="text-center fs-3 mt-3" id="education"><u>Education</u></h1>
             <div class="mt-3 container text-center">
-                <div class="row">
-                  <div class="fs-4 col">
-                    Senior High School
-                  </div>
-                  <div class="fs-4 col">
-                    College
+                <div class="row justify-content-center">
+                    <div class="fs-4 col-md-6">
+                        <b>Senior High School</b>
+                        <hr>
+                        <p style="color: black;" class="fs-5">Lyceum of the Philippines University Davao</p>
+                        <p style="color: black;" class="fs-5">2020 - 2021</p>
+                        <p style="color: black;" class="fs-5">Jose Maria College Foundation Incorporated</p>
+                        <p style="color: black;" class="fs-5">2021 - 2022</p>
+                    </div>
+                    <div class="fs-4 col">
+                        <b>College</b>
+                        <hr>
+                        <p style="color: black;" class="fs-5">Jose Maria College Foundation Incorporated</p>
+                        <p style="color: black;" class="fs-5">2022 - Present</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section>
+        <h1 class="text-center fs-3 mt-3 mb-4" id="skillset"><u>Skills and Certifications</u></h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <!-- Languages Card -->
+              <div class="col-sm-6 ms-5 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Languages</h5>
+                    <ul class="card-text">
+                      <li>Bisaya</li>
+                      <li>Tagalog</li>
+                      <li>English</li>
+                    </ul>
                   </div>
                 </div>
               </div>
+    
+              <!-- Skills Card -->
+              <div class="col-sm-6 ms-5 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Skills</h5>
+                    <ul class="card-text">
+                      <li>Good Memory</li>
+                      <li>Adaptability</li>
+                      <li>Objective and Critical</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+    
+              <!-- Technical Knowledge Card -->
+              <div class="col-sm-6 ms-5 mb-5">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Technical Knowledge</h5>
+                    <ul class="card-text">
+                      <li>Java, HTML, CSS, & JavaScript</li>
+                      <li>Networking Basics (CISCO Certified)</li>
+                      <li>Networking Addressing and Basic Troubleshooting (CISCO Certified)</li>
+                      <li>Network Support and Security (CISCO Certified)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+    
+              <!-- Achievements Card -->
+              <div class="col-sm-6 ms-5">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Achievements</h5>
+                    <ul class="card-text">
+                      <li>Consistent High Honors Throughout Elementary & High School</li>
+                      <li>5th Place in Hack4Gov 2 - Region XI by CERT-PH/DICT</li>
+                      <li>Inventory Management System (Java)</li>
+                      <li>Simple Remote Desktop (Java)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-6">
+                <!-- Carousel -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="images/networking-basics.png" alt="Networking Basics">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/network-addressing-and-basic-troubleshooting.png" alt="Network-Addressing-and-Basic-Troubleshooting">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/network-support-and-security.png" alt="Network-Support-and-Security">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <!-- Long Picture Section -->
+                <div class="row mt-3">
+                    <div class="col-sm">
+                        <div class="bg-light overflow-hidden">
+                            <img src="images/5th_Place.jpg" class="img-fluid w-100 h-100 object-cover" alt="Hack4Gov">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
         </div>
-    </section>
+    </section>  
 
-    <h2 class="text-center mt-3 ms-3" id="pixelart">Pixel Art Corner</h2>
-    <div class="container">
-        <!-- First Row -->
-        <div class="row no-gutters">
-            <div class="col-sm">
-                <img src="images/gifs/Red_Sorcerer.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-1">
+    <h2 class="text-center mt-3" id="pixelart"><u>Pixel Art Corner</u></h2>
+        <div class="container">
+            <!-- First Row -->
+            <div class="row no-gutters">
+                <div class="col-sm">
+                    <img src="images/gifs/Red_Sorcerer.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-1">
+                </div>
+                <div class="col-sm">
+                    <img src="images/gifs/SLIME_RED_CAP.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-2">
+                </div>
+                <div class="col-sm">
+                    <img src="images/Sun-Blade.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-1">
+                </div>
             </div>
-            <div class="col-sm">
-                <img src="images/gifs/SLIME_RED_CAP.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-2">
+            <!-- Second Row -->
+            <div class="row no-gutters">
+                <div class="col-sm">
+                    <img src="images/Bright-Eye.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-2">
+                </div>
+                <div class="col-sm">
+                    <img src="images/A-Journey.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-3">
+                </div>
+                <div class="col-sm">
+                    <img src="images/Wine-Spill.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-4">
+                </div>
             </div>
-            <div class="col-sm">
-                <img src="images/Sun-Blade.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-1">
-            </div>
-        </div>
-        <!-- Second Row -->
-        <div class="row no-gutters">
-            <div class="col-sm">
-                <img src="images/Bright-Eye.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-2">
-            </div>
-            <div class="col-sm">
-                <img src="images/A-Journey.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-3">
-            </div>
-            <div class="col-sm">
-                <img src="images/Wine-Spill.png" class="img-fluid w-100 h-100 object-cover" alt="IMG-4">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <div class="bg-light overflow-hidden">
-                    <img src="images/gifs/PIPE_RED_SLIME.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-3">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="bg-light overflow-hidden">
+                        <img src="images/gifs/PIPE_RED_SLIME.gif" class="img-fluid w-100 h-100 object-cover" alt="GIF-3">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
