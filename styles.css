@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.title, .section-title {
+    text-align: center;
+    color: #333;
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.about-me-section .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.quote {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.bio {
+    flex: 2;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.education-container .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.education-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    width: 22%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.card-title {
+    text-align: center;
+    color: #555;
+}
+
+.carousel {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+}
+
+.long-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.pixel-art {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.gif-container {
+    margin: 20px auto;
+}
+
+.gif {
+    width: 100%;
+    height: auto;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .about-me-section .row {
+        flex-direction: column;
+    }
+    
+    .bio {
+        padding: 0;
+    }
+
+    .education-item {
+        margin: 20px 0;
+    }
+    
+    .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-image {
+        width: 150px;
+    }
+
+    .quote {
+        font-size: 14px;
+    }
+
+    .bio {
+        font-size: 14px;
+    }
+
+    .social-icon {
+        width: 30px;
+    }
+
+    .pixel-art {
+        margin: 10px 0;
+    }
+}  
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap if necessary */
+    justify-content: center; /* Center images horizontally */
+    margin-top: 20px;
+    gap: 20px; /* Adjusts spacing between the images */
+}
+
+.gallery-image {
+    width: 100%; /* Adjust width to fit three images with spacing */
+    max-width: 800px; /* Limit max width to ensure images are not too large */
+    height: 20rem; /* Fixed height for standard images */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    border-radius: 8px;
+    margin-bottom: 20px; /* Space below each image */
+    transition: transform 0.3s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* Special styling for the "5th Place" image */
+.gallery-image.large {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Height adjusts automatically */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gallery-image {
+        width: calc(50% - 10px); /* Adjust width for medium screens */
+        max-width: none; /* Remove max width constraint */
+        margin-bottom: 20px; /* Space below each image */
+    }
+
+    .gallery-image.large {
+        width: 100%; /* Ensure the large image spans full width */
+        margin-bottom: 20px; /* Space below the large image */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-image {
+        width: 90%; /* Adjust width for small screens */
+        margin: 10px auto; /* Center and space out images */
+    }
+
+    .gallery-image.large {
+        width: 100%; /* Ensure the large image spans full width */
+        margin: 10px auto; /* Center and space out the large image */
+    }
+}
+
+
+
+
+
+  
