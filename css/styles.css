@@ -1,0 +1,322 @@
+/* Base Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  background-color: #007bff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-link {
+    padding: 10px;
+    font-size: 18px;
+  }
+}
+
+.header-container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.tagline {
+  font-size: 20px;
+  color: #555;
+}
+
+/* About Me Section */
+.about-me-section .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Adjust profile image for smaller screens */
+@media (max-width: 768px) {
+  .profile-image {
+    width: 75%; /* Increase size for smaller screens */
+  }
+}
+
+.bio {
+  max-width: 600px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.quote {
+  font-style: italic;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Education Section */
+.education-section {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.timeline-item {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 80%; /* Adjust as needed */
+}
+
+.school-logo {
+  width: 10%; /* Fixed width for logos */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 15px; /* Space between logo and text */
+}
+
+.timeline-item h3 {
+  margin: 10px 0 5px;
+}
+
+.timeline-item p {
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .school-logo {
+    width: 80px; /* Smaller width for smaller screens */
+  }
+
+  .timeline-item {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
+
+/* Skills Section */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transition: 0.3s;
+}
+
+/* Pixel Art Section */
+.pixel-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.pixel-gallery img {
+  width: 187px;
+  height: auto;
+}
+
+.pixel-gallery-full {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.full-width-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adjust pixel gallery for smaller screens */
+@media (max-width: 768px) {
+  .pixel-gallery img {
+    width: 150px; /* Reduce image size */
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 10px;
+}
+
+.social-links img {
+  width: 40px;
+  transition: transform 0.3s;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
+
+/* Additional responsiveness for smaller screens */
+@media (max-width: 768px) {
+  footer {
+    padding: 20px;
+  }
+
+  .social-links img {
+    width: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .tagline {
+    font-size: 16px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .skills-grid,
+  .project-gallery {
+    grid-template-columns: 1fr; /* Stack items on small screens */
+  }
+
+  .full-width-image {
+    width: 100%; /* Full width on small screens */
+  }
+}
+
+/* Style for certification images */
+.certification-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between images */
+  justify-content: center; /* Center the images */
+  margin-top: 20px; /* Space above the images */
+}
+
+.certification-images img {
+  width: 200px; /* Fixed width for images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Ensure images are responsive */
+@media (max-width: 768px) {
+  .certification-images img {
+    width: 150px; /* Smaller width for smaller screens */
+  }
+}

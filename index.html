@@ -4,167 +4,203 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Lozano Personal Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon/CurrentThought.png">
+  <title>Humphrey Myles C. Lozano | Portfolio</title>
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <h1 class="title">Welcome to my Personal Website!</h1>
-      <p class="intro-text">
-        Hello! My name is Humphrey Myles C. Lozano.
-        This is my personal website! Feel free to look around.
-      </p>
-    </header>
+  <header>
+    <div class="container header-container">
+      <h1 class="title">Humphrey Myles C. Lozano</h1>
+      <p class="tagline">Aspiring IT Specialist | Pixel Artist</p>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="#aboutme">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skillset">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pixelart">Pixel Art</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <nav>
-      <ul class="nav">
-        <li class="nav-item"><a class="nav-link" href="#aboutme">About Me</a></li>
-        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-        <li class="nav-item"><a class="nav-link" href="#skillset">Skillset and Certifications</a></li>
-        <li class="nav-item"><a class="nav-link" href="#pixelart">Pixel Art Corner</a></li>
-      </ul>
-    </nav>
-
+  <main>
+    <!-- About Me Section -->
     <section id="aboutme" class="about-me-section">
-      <h1 class="section-title">About Me</h1>
-      <div class="row">
-        <div class="image-container">
-          <img src="images/Red-Jacket.png" class="profile-image" alt="My Image">
-          <p class="quote">~Humphrey Myles C. Lozano~<br>“If I can fail, I can learn.”</p>
-        </div>
-
-        <div class="bio">
-          <p>
-            I am currently studying Bachelor of Science in Information Technology at Jose Maria College Foundation Inc.
-            I pride myself on my ability to absorb information like a sponge, making me the best blank slate you can
-            ever have.<br><br>
-            I am critical of the information given to me and need full details before starting any work. I also love
-            video games and making pixel art inspired by them.
-          </p>
-          <div class="social-links">
-            <a href="https://github.com/MylesLozano" target="_blank"><img src="images/GitHub_Invertocat_Logo.png"
-                class="social-icon" alt="Github Link"></a>
-            <a href="https://www.facebook.com/TGL.Codex/" target="_blank"><img src="images/Facebook_Icon_Black.png"
-                class="social-icon" alt="Facebook Link"></a>
-            <a href="https://www.linkedin.com/in/humphrey-myles-lozano-69980b280/" target="_blank"><img
-                src="images/linkedin_black_logo_icon.png" class="social-icon" alt="LinkedIn Link"></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="education">
-      <h1 class="section-title">Education</h1>
-      <div class="container education-container">
-        <div class="row">
-          <div class="education-item">
-            <b>Senior High School</b>
-            <hr>
-            <p>Lyceum of the Philippines University Davao</p>
-            <p>2020 - 2021</p>
-            <p>Jose Maria College Foundation Incorporated</p>
-            <p>2021 - 2022</p>
-          </div>
-          <div class="education-item">
-            <b>College</b>
-            <hr>
-            <p>Jose Maria College Foundation Incorporated</p>
-            <p>2022 - Present</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="skillset">
-      <h1 class="section-title">Skills and Certifications</h1>
       <div class="container">
+        <h2 class="section-title">About Me <i class="fa-solid fa-user"></i></h2>
         <div class="row">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Languages</h5>
-              <ul>
-                <li>Bisaya</li>
-                <li>Tagalog</li>
-                <li>English</li>
-              </ul>
-            </div>
+          <div class="image-container">
+            <img src="images/Red-Jacket.png" class="profile-image" alt="Profile Picture">
           </div>
-
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Skills</h5>
-              <ul>
-                <li>Good Memory</li>
-                <li>Adaptability</li>
-                <li>Objective and Critical</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Technical Knowledge</h5>
-              <ul>
-                <li>Java, HTML, CSS, & JavaScript</li>
-                <li>Networking Basics (CISCO Certified)</li>
-                <li>Networking Addressing and Troubleshooting (CISCO Certified)</li>
-                <li>Network Support and Security (CISCO Certified)</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Achievements</h5>
-              <ul>
-                <li>Consistent High Honors Throughout Elementary and High School</li>
-                <li>5th Place in Hack4Gov 2 - Region XI by CERT-PH/DICT</li>
-                <li>Inventory Management System (Java)</li>
-                <li>Simple Remote Desktop (Java)</li>
-              </ul>
-            </div>
+          <div class="bio">
+            <p>Hello, I'm Humphrey Myles C. Lozano, a Bachelor of Science in Information Technology student at Jose
+              Maria College Foundation Inc.! I am passionate about problem-solving, IT, and pixel art. Feel free to look
+              around!</p>
+            <blockquote class="quote">"If I can fail, I can learn."</blockquote>
           </div>
         </div>
-
-        <div class="image-gallery">
-          <a href="images/networking-basics.png" target="_blank">
-            <img src="images/networking-basics.png" class="gallery-image" alt="Networking Basics">
-          </a>
-          <a href="images/network-addressing-and-basic-troubleshooting.png" target="_blank">
-            <img src="images/network-addressing-and-basic-troubleshooting.png" class="gallery-image"
-              alt="Network Addressing">
-          </a>
-          <a href="images/network-support-and-security.png" target="_blank">
-            <img src="images/network-support-and-security.png" class="gallery-image" alt="Network Support">
-          </a>
-          <a href="images/5th_Place.jpg" target="_blank">
-            <img src="images/5th_Place.jpg" class="gallery-image large" alt="Hack4Gov">
-          </a>
-        </div>
-
       </div>
     </section>
 
-    <section id="pixelart">
-      <h2 class="section-title">Pixel Art Corner</h2>
+    <!-- Education Section -->
+    <section id="education" class="education-section">
       <div class="container">
-        <div class="row">
-          <div class="col"><img src="images/gifs/Red_Sorcerer.gif" class="pixel-art" alt="GIF-1"></div>
-          <div class="col"><img src="images/gifs/SLIME_RED_CAP.gif" class="pixel-art" alt="GIF-2"></div>
-          <div class="col"><img src="images/Sun-Blade.png" class="pixel-art" alt="IMG-1"></div>
+        <h2 class="section-title">Education <i class="fa-solid fa-book"></i></h2>
+        <div class="education-timeline">
+          <div class="timeline-item">
+            <img src="images/school logos/JMC LOGO.png" alt="Jose Maria College Foundation Inc. Logo"
+              class="school-logo">
+            <h3>Jose Maria College Foundation Inc.</h3>
+            <p>Senior High School (Grade 12) (2021 - 2022)</p>
+            <p>Bachelor of Science Information Technology (2022 - Present)</p>
+          </div>
+          <div class="timeline-item">
+            <img src="images/school logos/LPU LOGO.png" alt="Lyceum of the Philippines University Davao Logo"
+              class="school-logo">
+            <h3>Lyceum of the Philippines University Davao</h3>
+            <p>Senior High School (Grade 11) (2020 - 2021)</p>
+          </div>
         </div>
-        <div class="row">
-          <div class="col"><img src="images/Bright-Eye.png" class="pixel-art" alt="IMG-2"></div>
-          <div class="col"><img src="images/A-Journey.png" class="pixel-art" alt="IMG-3"></div>
-          <div class="col"><img src="images/Wine-Spill.png" class="pixel-art" alt="IMG-4"></div>
-        </div>
-        <div class="gif-container"><img src="images/gifs/PIPE_RED_SLIME.gif" class="gif" alt="GIF-3"></div>
       </div>
     </section>
-  </div>
+
+
+    <!-- Skills Section -->
+    <section id="skillset" class="skills-section">
+      <div class="container">
+        <h2 class="section-title">Skills and Certifications <i class="fa-regular fa-star"></i></h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Languages</h3>
+            <ul>
+              <li>Bisaya</li>
+              <li>Tagalog</li>
+              <li>English</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Technical Knowledge</h3>
+            <ul>
+              <li>Java, HTML, CSS, JavaScript, PHP (Laravel), Python (Django)</li>
+              <li>MySQL Simple Database Management</li>
+              <li>CISCO Certifications (Networking)</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Programming Skills</h3>
+            <ul>
+              <li>Web Development</li>
+              <li>Object-Oriented Programming</li>
+              <li>Database Management</li>
+              <li>Version Control (Git)</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Certifications</h3>
+            <ul>
+              <li>CISCO Networking Basics</li>
+              <li>CISCO Network Addressing and Basic Troubleshooting</li>
+              <li>CISCO Network Support and Security</li>
+              <li>CISCO Networking Devices and Initial Configuration</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Certification Images -->
+        <div class="certification-images">
+          <img src="images/certifications/networking-basics.png" alt="CISCO Networking Basics">
+          <img src="images/certifications/network-addressing-and-basic-troubleshooting.png"
+            alt="CISCO Network Addressing and Basic Troubleshooting">
+          <img src="images/certifications/network-support-and-security.png" alt="CISCO Network Support and Security">
+          <img src="images/certifications/networking-devices-and-initial-configuration.png"
+            alt="CISCO Networking Devices and Initial Configuration">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="section-title">Projects <i class="fa-solid fa-diagram-project"></i></h2>
+        <div class="project-gallery">
+          <div class="project-card">
+            <div class="project-info">
+              <i class="fa-solid fa-warehouse" alt="Warehouse Icon"></i>
+              <h3>Inventory Management System</h3>
+              <p>Developed in Java, this system helps track and manage inventory data efficiently.</p>
+              <a href="https://github.com/MylesLozano/InventoryManagementSystem_FinalProject" target="_blank"
+                class="btn">View
+                Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-info">
+              <i class="fa-solid fa-desktop" alt="Desktop Icon"></i>
+              <h3>Simple Remote Desktop</h3>
+              <p>A Java application enabling remote access and control of a desktop environment.</p>
+              <a href="https://github.com/MylesLozano/Simple-Remote-Desktop-Using-Java" target="_blank" class="btn">View
+                Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-info">
+              <i class="fa-solid fa-globe" alt="Globe Icon"></i>
+              <h3>3 Simple Micro-Web Applications</h3>
+              <p> A Django-based system comprising
+                three interconnected micro-applications. Each application serves a specific purpose and
+                allows users to perform CRUD operations.</p>
+              <a href="https://github.com/MylesLozano/Final_Project" target="_blank" class="btn">View Project</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Pixel Art Corner -->
+    <section id="pixelart" class="pixel-art-section">
+      <div class="container">
+        <h2 class="section-title">Pixel Art Corner <i class="fa-solid fa-brush"></i></h2>
+        <div class="pixel-gallery">
+          <img src="images/pixel_arts/Sun-Blade.png" alt="Pixel Art 1">
+          <img src="images/pixel_arts/Bright-Eye.png" alt="Pixel Art 2">
+          <img src="images/pixel_arts/A-Journey.png" alt="Pixel Art 3">
+          <img src="images/pixel_arts/Wine-Spill.png" alt="Pixel Art 4">
+          <img src="images/gifs/Red_Sorcerer.gif" alt="Pixel Art 5">
+          <img src="images/gifs/SLIME_RED_CAP.gif" alt="Pixel Art 6">
+        </div>
+        <div class="pixel-gallery-full">
+          <img src="images/gifs/PIPE_RED_SLIME.gif" alt="Pixel Art 7" class="full-width-image">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="footer-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out through my social links or email me: maskedmyles@gmail.com</p>
+      <div class="social-links">
+        <a href="https://github.com/MylesLozano" target="_blank"><img
+            src="images/footer logos/GitHub_Invertocat_Logo.png" alt="GitHub"></a>
+        <a href="https://www.facebook.com/TGL.Codex/" target="_blank"><img
+            src="images/footer logos/Facebook_Icon_Black.png" alt="Facebook"></a>
+        <a href="https://www.linkedin.com/in/humphrey-myles-lozano-69980b280/" target="_blank"><img
+            src="images/footer logos/linkedin_black_logo_icon.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </footer>
+
   <script src="scripts.js"></script>
+  <script src="https://kit.fontawesome.com/25210a6e03.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
